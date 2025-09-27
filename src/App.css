@@ -1,0 +1,22 @@
+/* Custom styling for emoji picker in dark mode */
+.emoji-picker-react {
+    background-color: #1f2a30 !important; /* Dark background */
+    color: #fff !important; /* Light text color */
+    border-radius: 8px !important; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important; /* Subtle shadow */
+  }
+  
+  .emoji-picker-react .emoji-group {
+    background-color: #1f2a30 !important; /* Dark background for emoji groups */
+  }
+  
+  .emoji-picker-react .emoji {
+    color: #fff !important; /* Ensuring emojis have a light color */
+  }
+  
+  /* Optional: Change the hover effect for emojis */
+  .emoji-picker-react .emoji:hover {
+    background-color: #3c4b51 !important; /* Slightly lighter hover background */
+  }
+  
+  
